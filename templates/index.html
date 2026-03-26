@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alexandria ACO Route</title>
+    <style>
+        #map { width: 100%; height: 600px; }
+    </style>
+</head>
+<body>
+    <h1>Best Route in Alexandria (ACO)</h1>
+    <p><strong>Path:</strong> {{ path }}</p>
+    <p><strong>Total Distance:</strong> {{ distance }} km</p>
+    <div id="map">
+        {{ map_html|safe }}
+    </div>
+</body>
+</html>
