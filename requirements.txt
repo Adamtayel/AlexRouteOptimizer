@@ -1,0 +1,20 @@
+AlexRouteOptimizer is an interactive route optimization project for Alexandria city using the Ant Colony Optimization (ACO) metaheuristic. The system calculates the shortest possible route that connects a set of predefined locations and visualizes it on an interactive web map.
+
+Features:
+
+Implements ACO algorithm with configurable parameters (α, β, evaporation rate, pheromone deposit).
+Computes real geodesic distances between coordinates.
+Visualizes results with Folium maps and markers.
+Outputs the best path along with total distance in kilometers.
+Designed to be extendable (additional locations, APIs for real road routing).
+
+Tech Stack:
+
+Python (numpy, geopy, folium)
+Optional: Flask for a web interface
+
+Use Cases:
+
+Educational: Demonstrates Swarm Intelligence and optimization algorithms.
+Prototype for route planning tools.
+Visual tool for TSP and ACO algorithm analysis.
